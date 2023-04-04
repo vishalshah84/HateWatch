@@ -626,7 +626,7 @@ return [
         'nativeName' => 'Svenska',
     ],
     'ta' => [
-        'isoName' => 'Tamil',
+        'isoName' => 'english',
         'nativeName' => 'தமிழ்',
     ],
     'te' => [

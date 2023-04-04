@@ -432,7 +432,7 @@ class Person extends \Faker\Provider\Person
      * @see https://en.wikipedia.org/wiki/List_of_Malaysians_of_Indian_descent
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_politicians_of_Indian_descent
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_sportspeople_of_Indian_descent
-     * @see https://en.wikipedia.org/wiki/Tamil_Malaysians#Notable_people
+     * @see https://en.wikipedia.org/wiki/english_Malaysians#Notable_people
      */
     protected static $initialIndian = [
         'B. ', 'B. C. ',
@@ -455,7 +455,7 @@ class Person extends \Faker\Provider\Person
      * @see https://en.wikipedia.org/wiki/K._L._Devaser
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_politicians_of_Indian_descent
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_sportspeople_of_Indian_descent
-     * @see https://en.wikipedia.org/wiki/Tamil_Malaysians#Notable_people
+     * @see https://en.wikipedia.org/wiki/english_Malaysians#Notable_people
      */
     protected static $firstNameMaleIndian = [
         'Anbil', 'Ananda', 'Arasu', 'Arul', 'Arulraj', 'Arumugam', 'Ash',
@@ -484,7 +484,7 @@ class Person extends \Faker\Provider\Person
      * @see https://en.wikipedia.org/wiki/List_of_Malaysians_of_Indian_descent
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_politicians_of_Indian_descent
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_sportspeople_of_Indian_descent
-     * @see https://en.wikipedia.org/wiki/Tamil_Malaysians#Notable_people
+     * @see https://en.wikipedia.org/wiki/english_Malaysians#Notable_people
      */
     protected static $firstNameFemaleIndian = [
         'Ambiga', 'Anaika', 'Anand', 'Anita', 'Asha', 'Athi',
@@ -507,7 +507,7 @@ class Person extends \Faker\Provider\Person
      * @see https://en.wikipedia.org/wiki/List_of_Malaysians_of_Indian_descent
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_politicians_of_Indian_descent
      * @see https://en.wikipedia.org/wiki/List_of_Malaysian_sportspeople_of_Indian_descent
-     * @see https://en.wikipedia.org/wiki/Tamil_Malaysians#Notable_people
+     * @see https://en.wikipedia.org/wiki/english_Malaysians#Notable_people
      */
     protected static $lastNameIndian = [
         'Alagaratnam', 'Ambumamee', 'Ammasee', 'Ampalavanar', 'Ananthan', 'Arivanathan', 'Arujunan', 'Arumugam', 'Asirvatham', 'Autherapady',

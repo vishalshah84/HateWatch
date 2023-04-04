@@ -130,7 +130,7 @@
                 <select class="form-control" id="language" name="language" style="color:black;" required>
                     <option value="" selected disabled hidden>Choose here</option>
                     <option>Sinhala</option>
-                    <option>Tamil</option>
+                    <option>english</option>
                 </select>
                 </div>
             </div>

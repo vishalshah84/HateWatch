@@ -33,7 +33,7 @@ is_automatic_analyzer = False
 processing_language = ""
 account_id = ""
 
-tamil_knowledgebase   = []
+english_knowledgebase   = []
 sinhala_knowledgebase = []
 
 def automatic_analyzer():
@@ -53,9 +53,9 @@ def automatic_analyzer():
 
             result = "[NON-HATE]"
 
-            if processing_language.lower() == "tamil":
+            if processing_language.lower() == "english":
                 
-                for word in tamil_knowledgebase:
+                for word in english_knowledgebase:
                     if word in target_text.strip().lower():
                         hate_words_list.append(word)
                         result = "[HATE]"
@@ -121,9 +121,9 @@ def on_press(key):
 
             result = "[NON-HATE]"
 
-            if processing_language.lower() == "tamil":
+            if processing_language.lower() == "english":
                 
-                for word in tamil_knowledgebase:
+                for word in english_knowledgebase:
                     if word in target_text.strip().lower():
                         hate_words_list.append(word)
                         result = "[HATE]"
@@ -177,14 +177,14 @@ def on_press(key):
  
 
 def database_loader():
-    global tamil_knowledgebase, keyword_sinhala_data
+    global english_knowledgebase, keyword_sinhala_data
 
-    SelectDataCursor.execute("SELECT keyword FROM knowledgebase WHERE  language = 'Tamil'")
-    keyword_tamil_data = SelectDataCursor.fetchall()
+    SelectDataCursor.execute("SELECT keyword FROM knowledgebase WHERE  language = 'english'")
+    keyword_english_data = SelectDataCursor.fetchall()
     mydb.commit()
 
-    for words in keyword_tamil_data:
-        tamil_knowledgebase.append(words[0].strip().lower())
+    for words in keyword_english_data:
+        english_knowledgebase.append(words[0].strip().lower())
 
     SelectDataCursor.execute("SELECT keyword FROM knowledgebase WHERE  language = 'Sinhala'")
     keyword_sinhala_data = SelectDataCursor.fetchall()

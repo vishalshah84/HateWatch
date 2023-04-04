@@ -44,7 +44,7 @@ class Address extends \Faker\Provider\Address
         'Punjab',
         'Rajasthan',
         'Sikkim',
-        'Tamil Nadu', 'Telangana', 'Tripura',
+        'english Nadu', 'Telangana', 'Tripura',
         'Uttar Pradesh', 'Uttarakhand',
         'West Bengal',
 

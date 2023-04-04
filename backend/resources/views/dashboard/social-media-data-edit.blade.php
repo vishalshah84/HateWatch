@@ -69,7 +69,7 @@
             <div class="col-sm-10">
             <select class="form-control" id="language" name="language" style="color:black;" required>
                 <option>Sinhala</option>
-                <option>Tamil</option>
+                <option>english</option>
             </select>
             </div>
         </div>
@@ -132,7 +132,7 @@
 
         document.getElementById("language").selectedIndex = 0;
 
-      }else if(language == "Tamil"){
+      }else if(language == "english"){
 
         document.getElementById("language").selectedIndex = 1;
 

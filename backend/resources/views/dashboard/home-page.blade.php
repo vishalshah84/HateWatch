@@ -98,7 +98,7 @@
 
 <div class="card card-tale" style="background-color:#e9ecef; color:black; margin-bottom:2%;  margin-top:2%;">
     <div class="card-body">
-        <p class="fs-30 mb-2" style="text-align:center;">Tamil Language Top 10 Trendings</p>
+        <p class="fs-30 mb-2" style="text-align:center;">english Language Top 10 Trendings</p>
     </div>
 </div>
 
@@ -113,7 +113,7 @@
 
           <ul class="icon-data-list" style="width:100%;">
 
-            @foreach($TamilHateSpeechSpreadersData as $data)
+            @foreach($englishHateSpeechSpreadersData as $data)
                 @foreach($data as $sub_data)
 
                   <li>
@@ -155,7 +155,7 @@
                           <hr>
                           <div class="charts-data row">
 
-                          @foreach($TamilKeywordsData as $data)
+                          @foreach($englishKeywordsData as $data)
                               @foreach($data as $sub_data)
 
 

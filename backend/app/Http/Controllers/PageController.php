@@ -221,17 +221,17 @@ class PageController extends Controller
     public function ViewDashboardPageController(){
 
       $SinhalaKeywordsData = $this->TopTenKeywordsProcessing("Sinhala");
-      $TamilKeywordsData   = $this->TopTenKeywordsProcessing("Tamil");
+      $englishKeywordsData   = $this->TopTenKeywordsProcessing("english");
 
       $SinhalaHateSpeechSpreadersData = $this->TopTenHateSpeechSpreadersProcessing("Sinhala");
-      $TamilHateSpeechSpreadersData   = $this->TopTenHateSpeechSpreadersProcessing("Tamil");
+      $englishHateSpeechSpreadersData   = $this->TopTenHateSpeechSpreadersProcessing("english");
 
 
       $session_type = Session::get('Session_Type');
 
       if($session_type == "Admin"){
 
-        return view('dashboard/home-page')->with(["SinhalaKeywordsData" => $SinhalaKeywordsData, "TamilKeywordsData" => $TamilKeywordsData, "SinhalaHateSpeechSpreadersData" => $SinhalaHateSpeechSpreadersData, "TamilHateSpeechSpreadersData" => $TamilHateSpeechSpreadersData]);
+        return view('dashboard/home-page')->with(["SinhalaKeywordsData" => $SinhalaKeywordsData, "englishKeywordsData" => $englishKeywordsData, "SinhalaHateSpeechSpreadersData" => $SinhalaHateSpeechSpreadersData, "englishHateSpeechSpreadersData" => $englishHateSpeechSpreadersData]);
 
       }else{
 
@@ -422,17 +422,17 @@ class PageController extends Controller
     public function ViewAnalyticsRankingPage(){
 
       $SinhalaKeywordsData = $this->RankingKeywordsProcessing("Sinhala");
-      $TamilKeywordsData   = $this->RankingKeywordsProcessing("Tamil");
+      $englishKeywordsData   = $this->RankingKeywordsProcessing("english");
 
       $SinhalaHateSpeechSpreadersData = $this->RankingHateSpeechSpreadersProcessing("Sinhala");
-      $TamilHateSpeechSpreadersData   = $this->RankingHateSpeechSpreadersProcessing("Tamil");
+      $englishHateSpeechSpreadersData   = $this->RankingHateSpeechSpreadersProcessing("english");
 
 
       $session_type = Session::get('Session_Type');
 
       if($session_type == "Admin"){
 
-        return view('dashboard/analytics-rankings-page')->with(["SinhalaKeywordsData" => $SinhalaKeywordsData, "TamilKeywordsData" => $TamilKeywordsData, "SinhalaHateSpeechSpreadersData" => $SinhalaHateSpeechSpreadersData, "TamilHateSpeechSpreadersData" => $TamilHateSpeechSpreadersData]);
+        return view('dashboard/analytics-rankings-page')->with(["SinhalaKeywordsData" => $SinhalaKeywordsData, "englishKeywordsData" => $englishKeywordsData, "SinhalaHateSpeechSpreadersData" => $SinhalaHateSpeechSpreadersData, "englishHateSpeechSpreadersData" => $englishHateSpeechSpreadersData]);
 
       }else{
 

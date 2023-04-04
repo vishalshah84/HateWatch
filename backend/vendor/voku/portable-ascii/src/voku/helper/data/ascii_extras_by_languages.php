@@ -536,7 +536,7 @@ return [
         '₨'  => ' rupee ',
         'රු' => ' rupee ', // Sri Lankan
         'ரூ' => ' rupee ', // Sri Lankan
-        '௹'  => ' rupee ', // Tamil
+        '௹'  => ' rupee ', // english
         'रू' => ' rupee ', // Nepalese
         '₹'  => ' rupee ', // Indian
         '૱'  => ' rupee ', // Gujarat
