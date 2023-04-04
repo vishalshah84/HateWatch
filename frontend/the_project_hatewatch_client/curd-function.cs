@@ -16,7 +16,7 @@ namespace the_project_hatewatch_client
 
             try
             {
-                MySqlConnection myConnect = new MySqlConnection("SERVER=localhost;DATABASE=the-project-aisle;UID=root;PASSWORD=");
+                MySqlConnection myConnect = new MySqlConnection("SERVER=localhost;DATABASE=the-project-hatewatch;UID=root;PASSWORD=");
                 myConnect.Open();
                 MySqlCommand myCommand = new MySqlCommand(query, myConnect);
                 MySqlDataReader data = myCommand.ExecuteReader();

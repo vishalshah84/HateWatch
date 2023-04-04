@@ -14,7 +14,7 @@ mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   passwd="",
-  database="the-project-aisle"
+  database="the-project-hatewatch"
 )
 
 
