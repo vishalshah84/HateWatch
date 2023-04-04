@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace the_project_aisle_client
+namespace the_project_hatewatch_client
 {
     static class Program
     {

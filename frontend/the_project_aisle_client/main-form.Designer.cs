@@ -1,4 +1,4 @@
-﻿namespace the_project_aisle_client
+﻿namespace the_project_hatewatch_client
 {
     partial class MainForm
     {

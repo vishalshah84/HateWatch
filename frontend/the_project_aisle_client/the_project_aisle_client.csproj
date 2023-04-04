@@ -7,8 +7,8 @@
     <ProjectGuid>{A378101F-9C3C-4550-8794-259FAC3EBE31}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>the_project_aisle_client</RootNamespace>
-    <AssemblyName>the_project_aisle_client</AssemblyName>
+    <RootNamespace>the_project_hatewatch_client</RootNamespace>
+    <AssemblyName>the_project_hatewatch_client</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

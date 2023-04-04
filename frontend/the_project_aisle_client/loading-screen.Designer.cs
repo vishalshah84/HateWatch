@@ -1,4 +1,4 @@
-﻿namespace the_project_aisle_client
+﻿namespace the_project_hatewatch_client
 {
     partial class LoadingScreen
     {
@@ -66,7 +66,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::the_project_aisle_client.Properties.Resources.aed11d6975231b91c8e992c02b8376da;
+            this.pictureBox1.Image = global::the_project_hatewatch_client.Properties.Resources.aed11d6975231b91c8e992c02b8376da;
             this.pictureBox1.Location = new System.Drawing.Point(82, 73);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(710, 515);

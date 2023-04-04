@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace the_project_aisle_client.Properties
+namespace the_project_hatewatch_client.Properties
 {
 
 
