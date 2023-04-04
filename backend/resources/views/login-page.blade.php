@@ -60,7 +60,7 @@
 						{{ csrf_field() }}
 
 						<span class="login100-form-title p-b-26">
-						 	The Project AISLE
+						 	HateWatch
 						</span>
 
 						<span class="login100-form-title p-b-26">

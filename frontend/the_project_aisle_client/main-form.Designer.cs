@@ -146,7 +146,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(259, 37);
             this.label4.TabIndex = 0;
-            this.label4.Text = "The Project AISLE";
+            this.label4.Text = "HateWatch";
             // 
             // label3
             // 
@@ -258,7 +258,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "The Project AISLE";
+            this.Text = "HateWatch";
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
             this.panel4.ResumeLayout(false);

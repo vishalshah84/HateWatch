@@ -47,7 +47,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(329, 44);
             this.label2.TabIndex = 10;
-            this.label2.Text = "The Project AISLE";
+            this.label2.Text = "HateWatch";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // splash_screen_progressbar
