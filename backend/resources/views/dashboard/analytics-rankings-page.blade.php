@@ -4,7 +4,7 @@
 
 <div class="card card-tale" style="background-color:#e9ecef; color:black; margin-bottom:2%;  margin-top:2%;">
     <div class="card-body">
-        <p class="fs-30 mb-2" style="text-align:center;">Sinhala Language Rankings</p>
+        <p class="fs-30 mb-2" style="text-align:center;">hindi Language Rankings</p>
     </div>
 </div>
 
@@ -20,7 +20,7 @@
 
           <ul class="icon-data-list" style="width:100%;">
 
-            @foreach($SinhalaHateSpeechSpreadersData as $data)
+            @foreach($hindiHateSpeechSpreadersData as $data)
                 @foreach($data as $sub_data)
 
                   <li>
@@ -61,7 +61,7 @@
                           <hr>
                           <div class="charts-data row">
 
-                          @foreach($SinhalaKeywordsData as $data)
+                          @foreach($hindiKeywordsData as $data)
                               @foreach($data as $sub_data)
 
 

@@ -34,7 +34,7 @@ processing_language = ""
 account_id = ""
 
 english_knowledgebase   = []
-sinhala_knowledgebase = []
+hindi_knowledgebase = []
 
 def automatic_analyzer():
     global is_automatic_analyzer
@@ -60,9 +60,9 @@ def automatic_analyzer():
                         hate_words_list.append(word)
                         result = "[HATE]"
 
-            elif processing_language.lower() == "sinhala":
+            elif processing_language.lower() == "hindi":
 
-                for word in sinhala_knowledgebase:
+                for word in hindi_knowledgebase:
                     if word in target_text.strip().lower():
                         hate_words_list.append(word)
                         result = "[HATE]"
@@ -128,9 +128,9 @@ def on_press(key):
                         hate_words_list.append(word)
                         result = "[HATE]"
 
-            elif processing_language.lower() == "sinhala":
+            elif processing_language.lower() == "hindi":
 
-                for word in sinhala_knowledgebase:
+                for word in hindi_knowledgebase:
                     if word in target_text.strip().lower():
                         hate_words_list.append(word)
                         result = "[HATE]"
@@ -177,7 +177,7 @@ def on_press(key):
  
 
 def database_loader():
-    global english_knowledgebase, keyword_sinhala_data
+    global english_knowledgebase, keyword_hindi_data
 
     SelectDataCursor.execute("SELECT keyword FROM knowledgebase WHERE  language = 'english'")
     keyword_english_data = SelectDataCursor.fetchall()
@@ -186,12 +186,12 @@ def database_loader():
     for words in keyword_english_data:
         english_knowledgebase.append(words[0].strip().lower())
 
-    SelectDataCursor.execute("SELECT keyword FROM knowledgebase WHERE  language = 'Sinhala'")
-    keyword_sinhala_data = SelectDataCursor.fetchall()
+    SelectDataCursor.execute("SELECT keyword FROM knowledgebase WHERE  language = 'hindi'")
+    keyword_hindi_data = SelectDataCursor.fetchall()
     mydb.commit()
 
-    for words in keyword_sinhala_data:
-        sinhala_knowledgebase.append(words[0].strip().lower())
+    for words in keyword_hindi_data:
+        hindi_knowledgebase.append(words[0].strip().lower())
         
 
 

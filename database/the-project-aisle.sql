@@ -62,9 +62,9 @@ CREATE TABLE `knowledgebase` (
 --
 
 INSERT INTO `knowledgebase` (`auto_id`, `keyword`, `context_tags`, `description`, `language`) VALUES
-(15, 'ලොක්කො', '[\"Gender\",\"LGBT\"]', '[NULL]', 'Sinhala'),
-(16, 'ගෙදර', '[\"Gender\",\"religion\"]', '[NULL]', 'Sinhala'),
-(17, 'ගියෙ', '[\"LGBT\"]', '[NULL]', 'Sinhala');
+(15, 'ලොක්කො', '[\"Gender\",\"LGBT\"]', '[NULL]', 'hindi'),
+(16, 'ගෙදර', '[\"Gender\",\"religion\"]', '[NULL]', 'hindi'),
+(17, 'ගියෙ', '[\"LGBT\"]', '[NULL]', 'hindi');
 
 -- --------------------------------------------------------
 
@@ -123,14 +123,14 @@ CREATE TABLE `social_media` (
 --
 
 INSERT INTO `social_media` (`auto_id`, `social_media`, `account_name`, `account_type`, `url`, `network_size`, `main_user_name`, `language`, `remarks`, `number_of_time_tested`) VALUES
-(1, 'Facebook', 'Lella Hutan', 'Page', 'https://www.facebook.com/lellahutanpage/', '501232', '[NULL]', 'Sinhala', '[NULL]', '0'),
-(2, 'Facebook', 'Gangster Rathne', 'Page', 'https://www.facebook.com/Gangsterrathne/', '\r\n382833', '[NULL]', 'Sinhala', '[NULL]', '0'),
-(3, 'Facebook', 'Buwa', 'Page', 'https://www.facebook.com/buwaSL/', '\r\n152914', '[NULL]', 'Sinhala', '[NULL]', '0'),
-(4, 'Facebook', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'Sinhala', '[NULL]', '0'),
-(5, 'Twitter', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'Sinhala', '[NULL]', '0'),
-(6, 'Twitter', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'Sinhala', '[NULL]', '0'),
-(7, 'Twitter', 'Page', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '11914', '[NULL]', 'Sinhala', '[NULL]', '0'),
-(9, 'Facebook', 'Sri Lankan Blood - 1', 'Page', 'https://www.facebook.com/SriLankanBlood1/', '31158', '[NULL]', 'Sinhala', '[NULL]', '0');
+(1, 'Facebook', 'Lella Hutan', 'Page', 'https://www.facebook.com/lellahutanpage/', '501232', '[NULL]', 'hindi', '[NULL]', '0'),
+(2, 'Facebook', 'Gangster Rathne', 'Page', 'https://www.facebook.com/Gangsterrathne/', '\r\n382833', '[NULL]', 'hindi', '[NULL]', '0'),
+(3, 'Facebook', 'Buwa', 'Page', 'https://www.facebook.com/buwaSL/', '\r\n152914', '[NULL]', 'hindi', '[NULL]', '0'),
+(4, 'Facebook', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'hindi', '[NULL]', '0'),
+(5, 'Twitter', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'hindi', '[NULL]', '0'),
+(6, 'Twitter', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'hindi', '[NULL]', '0'),
+(7, 'Twitter', 'Page', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '11914', '[NULL]', 'hindi', '[NULL]', '0'),
+(9, 'Facebook', 'Sri Lankan Blood - 1', 'Page', 'https://www.facebook.com/SriLankanBlood1/', '31158', '[NULL]', 'hindi', '[NULL]', '0');
 
 -- --------------------------------------------------------
 

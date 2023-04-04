@@ -68,7 +68,7 @@
             <label for="language" class="col-sm-2 col-form-label">Language</label>
             <div class="col-sm-10">
             <select class="form-control" id="language" name="language" style="color:black;" required>
-                <option>Sinhala</option>
+                <option>hindi</option>
                 <option>english</option>
             </select>
             </div>
@@ -128,7 +128,7 @@
 
       }
 
-      if(language == "Sinhala"){
+      if(language == "hindi"){
 
         document.getElementById("language").selectedIndex = 0;
 

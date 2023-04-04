@@ -98,7 +98,7 @@
             <div class="col-sm-10">
             <select class="form-control" id="language" name="language" style="color:black;" required>
                 <option value="" selected disabled hidden>Choose here</option>
-                <option>Sinhala</option>
+                <option>hindi</option>
                 <option>english</option>
             </select>
             </div>

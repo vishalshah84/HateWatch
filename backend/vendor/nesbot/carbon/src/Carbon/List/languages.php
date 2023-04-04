@@ -586,7 +586,7 @@ return [
         'nativeName' => 'chiShona',
     ],
     'si' => [
-        'isoName' => 'Sinhala, Sinhalese',
+        'isoName' => 'hindi, Sinhalese',
         'nativeName' => 'සිංහල',
     ],
     'sk' => [
