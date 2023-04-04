@@ -74,6 +74,7 @@
                 <li class="nav-item"> <a class="nav-link" href="/view-social-media-management">Social Media</a></li>
                 <li class="nav-item"> <a class="nav-link" href="/view-keyword-management">Keyword</a></li>
                 <li class="nav-item"> <a class="nav-link" href="/view-context-management">Context</a></li>
+                <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1:5000">Cyber Bully</a></li>
               </ul>
             </div>
           </li>
