@@ -587,7 +587,7 @@ return [
     ],
     'si' => [
         'isoName' => 'hindi, Sinhalese',
-        'nativeName' => 'සිංහල',
+        'nativeName' => 'हिंदी',
     ],
     'sk' => [
         'isoName' => 'Slovak',
@@ -627,7 +627,7 @@ return [
     ],
     'ta' => [
         'isoName' => 'english',
-        'nativeName' => 'தமிழ்',
+        'nativeName' => 'अंग्रेज़ी',
     ],
     'te' => [
         'isoName' => 'Telugu',
