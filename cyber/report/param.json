@@ -1,0 +1,4 @@
+{
+    "n_estimator": "scale",
+    "random_state": 42
+}

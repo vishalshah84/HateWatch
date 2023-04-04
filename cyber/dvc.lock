@@ -1,0 +1,56 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src\load_data.py --config=params.yaml
+    deps:
+    - path: data_given\cybertrolls.json
+      md5: 2fd8ec4af6f84e031fb397c369ec8d0c
+      size: 2755907
+    - path: src\get_data.py
+      md5: edefc4ac6a20157b76bb1c3c4ccf8c52
+      size: 1049
+    - path: src\load_data.py
+      md5: a8cf6e32c588b30daf10932850d494b1
+      size: 847
+    outs:
+    - path: data\raw\cybertrolls.csv
+      md5: 51ba6de5bd46638e41d6a8390345a3d1
+      size: 2186374
+  split_data:
+    cmd: python src\split_data.py --config=params.yaml
+    deps:
+    - path: data\raw\cybertrolls.csv
+      md5: 51ba6de5bd46638e41d6a8390345a3d1
+      size: 2186374
+    - path: src\split_data.py
+      md5: e0d97993817d733c4fabe71e0cf64670
+      size: 1373
+    outs:
+    - path: data\processed\test_cybertrolls.csv
+      md5: 5855f59a3affca841cb2d756ebfaab59
+      size: 720771
+    - path: data\processed\train_cybertrolls.csv
+      md5: 8271ca232f9e71ba7341f28cf00c663b
+      size: 1465650
+  train_and_evaluate:
+    cmd: python src/train_and_evaluate.py --config=params.yaml
+    deps:
+    - path: data/processed/test_cybertrolls.csv
+      md5: 5855f59a3affca841cb2d756ebfaab59
+      size: 720771
+    - path: data/processed/train_cybertrolls.csv
+      md5: 8271ca232f9e71ba7341f28cf00c663b
+      size: 1465650
+    - path: src/train_and_evaluate.py
+      md5: 9a08f47fe87a8ebde5ade59b8ed24d27
+      size: 6590
+    params:
+      params.yaml:
+        estimators.SupportVectorClassifier.params.gamma: auto
+        estimators.SupportVectorClassifier.params.random_state: 42
+  log_production_model:
+    cmd: python src/log_production_model.py --config=params.yaml
+    deps:
+    - path: src/log_production_model.py
+      md5: 3e1ea65dd58e12e3fe57e5ee3a93b2cf
+      size: 1733

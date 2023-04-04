@@ -1,0 +1,14 @@
+dvc
+dvc[gdrive]
+sklearn
+pyyaml
+numpy
+flask
+pandas
+tox
+pytest
+flake8
+autopep8
+nltk
+gunicorn
+mlflow
