@@ -23,7 +23,8 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import TweetTokenizer
 from get_data import read_params
 import joblib
-import mlflow 
+import mlflow
+import mlflow.sklearn
 from urllib.parse import urlparse
 
 def process_tweet(tweet):
