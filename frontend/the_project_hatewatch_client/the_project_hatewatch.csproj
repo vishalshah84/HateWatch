@@ -103,7 +103,7 @@
     <None Include="Resources\aed11d6975231b91c8e992c02b8376da.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="2890575_ai_artificial intelligence_automaton_electronics_robotics_icon.ico" />
+    <Content Include="logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
