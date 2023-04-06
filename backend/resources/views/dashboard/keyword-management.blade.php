@@ -4,7 +4,7 @@
 
     <div class="card card-tale" style="background-color:#e9ecef; color:black; margin-bottom:2%;  margin-top:2%;">
         <div class="card-body">
-            <p class="fs-30 mb-2" style="text-align:center;">Keyword Manegement</p>
+            <p class="fs-30 mb-2" style="text-align:center;">Keyword Management</p>
         </div>
     </div>
 
@@ -79,7 +79,7 @@
             <div class="form-group row">
                 <label for="context_tags" class="col-sm-2 col-form-label">Context Tags</label>
                 <div class="col-sm-10">
-                    <select style="height:300px; !important" data-placeholder="Context Tags" id="context_tags" name="context_tags[]" multiple class="chosen-select form-control" required>
+                    <select style="height:300px; !important" data-placeholder="Context Tags" id="context_tags" name="context_tags[]" multiple class="chosen-select form-control">
 
                         <option value=""></option>
 
