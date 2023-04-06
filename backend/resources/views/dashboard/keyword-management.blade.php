@@ -79,9 +79,11 @@
             <div class="form-group row">
                 <label for="context_tags" class="col-sm-2 col-form-label">Context Tags</label>
                 <div class="col-sm-10">
-                    <select style="height:300px; !important" data-placeholder="Context Tags" id="context_tags" name="context_tags[]" multiple class="chosen-select form-control">
+                    <select style="height:300px; !important" data-placeholder="Context Tags" id="context_tags" name="context_tags[]" multiple class="chosen-select form-control" required>
 
-                        <option value="null"></option>
+                <option value="" selected disabled hidden>Choose here</option>
+                <option>hindi</option>
+                <option>english</option>
 
                         @foreach ($all_context_names as $key => $data)
 
