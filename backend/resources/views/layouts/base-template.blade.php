@@ -122,7 +122,6 @@
   </div>
 
   <footer class="footer"">
-        <p style="text-align: center;">Copyright © <a href="https://www.facebook.com/deepeleven11" target="_blank">Deep11</a> | All Rights Reserved |  Co-created by <a href="https://www.linkedin.com/in/gunarakulan-gunaretnam-161119156/" target="_blank">Gunarakulan Gunaretnam</a></p>
   </footer>
 
   <!-- plugins:js -->
