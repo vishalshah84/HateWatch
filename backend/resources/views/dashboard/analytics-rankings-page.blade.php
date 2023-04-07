@@ -4,7 +4,7 @@
 
 <div class="card card-tale" style="background-color:#e9ecef; color:black; margin-bottom:2%;  margin-top:2%;">
     <div class="card-body">
-        <p class="fs-30 mb-2" style="text-align:center;">hindi Language Rankings</p>
+        <p class="fs-30 mb-2" style="text-align:center;">Hindi Language Rankings</p>
     </div>
 </div>
 
@@ -98,7 +98,7 @@
 
 <div class="card card-tale" style="background-color:#e9ecef; color:black; margin-bottom:2%;  margin-top:2%;">
     <div class="card-body">
-        <p class="fs-30 mb-2" style="text-align:center;">english Language Rankings</p>
+        <p class="fs-30 mb-2" style="text-align:center;">English Language Rankings</p>
     </div>
 </div>
 
