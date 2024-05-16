@@ -23,6 +23,25 @@ namespace the_project_hatewatch_client
                 return data;
                 
             }
+
+
+
+
+
+  // {
+  //               MySqlConnection myConnect = new MySqlConnection("SERVER=localhost;DATABASE=the-project-hatewatch;UID=root;PASSWORD=");
+  //               myConnect.Open();
+  //               MySqlCommand myCommand = new MySqlCommand(query, myConnect);
+  //               MySqlDataReader data = myCommand.ExecuteReader();
+  //               return data;
+                
+  //           }
+
+
+
+
+
+            
             catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
