@@ -124,8 +124,8 @@ CREATE TABLE `social_media` (
 
 INSERT INTO `social_media` (`auto_id`, `social_media`, `account_name`, `account_type`, `url`, `network_size`, `main_user_name`, `language`, `remarks`, `number_of_time_tested`) VALUES
 (1, 'Facebook', 'Lella Hutan', 'Page', 'https://www.facebook.com/lellahutanpage/', '501232', '[NULL]', 'hindi', '[NULL]', '0'),
-(2, 'Facebook', 'Gangster Rathne', 'Page', 'https://www.facebook.com/Gangsterrathne/', '\r\n382833', '[NULL]', 'hindi', '[NULL]', '0'),
-(3, 'Facebook', 'Buwa', 'Page', 'https://www.facebook.com/buwaSL/', '\r\n152914', '[NULL]', 'hindi', '[NULL]', '0'),
+(2, 'Facebook', 'something', 'Page', 'https://www.facebook.com/example/', '\r\n382833', '[NULL]', 'hindi', '[NULL]', '0'),
+(3, 'Facebook', 'something-1', 'Page', 'https://www.facebook.com/buwaSL/', '\r\n152914', '[NULL]', 'hindi', '[NULL]', '0'),
 (4, 'Facebook', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'hindi', '[NULL]', '0'),
 (5, 'Twitter', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'hindi', '[NULL]', '0'),
 (6, 'Twitter', 'Sampath Athukorala', 'Page', 'https://www.facebook.com/sampathathukoralaofficialpage/', '\r\n119145', '[NULL]', 'hindi', '[NULL]', '0'),
