@@ -52,7 +52,7 @@ namespace the_project_hatewatch_client
             data.Columns.Add("Account Type");
             data.Columns.Add("URL");
             data.Columns.Add("Network Size");
-            data.Columns.Add("Languages");
+            data.Columns.Add("Language");
             data.Columns.Add("Test Attempts");
             data.Columns.Add("Main User");
             data.Columns.Add("Remarks");
