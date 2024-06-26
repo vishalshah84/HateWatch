@@ -62,8 +62,8 @@ CREATE TABLE `knowledgebase` (
 --
 
 INSERT INTO `knowledgebase` (`auto_id`, `keyword`, `context_tags`, `description`, `language`) VALUES
-(15, 'ලොක්කො', '[\"Gender\",\"LGBTQ\"]', '[NULL]', 'hindi'),
-(16, 'ගෙදර', '[\"Gender\",\"religion\"]', '[NULL]', 'hindi'),
+(15, 'ලො', '[\"Gender\",\"LGBTQ\"]', '[NULL]', 'hindi'),
+(16, 'ගර', '[\"Gender\",\"religion\"]', '[NULL]', 'hindi'),
 (17, 'ගියෙ', '[\"LGBT\"]', '[NULL]', 'hindi');
 
 -- --------------------------------------------------------
