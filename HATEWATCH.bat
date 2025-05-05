@@ -2,7 +2,6 @@
 
 start C:\xampp1\xampp-control.exe
 
-
 cd C:\xampp1\htdocs\Hatewatch
 
 
