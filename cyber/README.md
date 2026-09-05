@@ -135,27 +135,3 @@ For support, email agarwalharsh244@gmail.com.
 Contributions are always welcome!
 Please adhere to this project's `code of conduct`.
 
-
-## Acknowledgements
-
- I would like to take this opportunity to thank my internal guide 
- Prof. Shrikant Dhamdhere for giving us all the help and guidance 
- I needed. I am really grateful to them for their kind support. 
-Their valuable suggestions were very helpful. I am also grateful to Prof. Shrikant Dhamdhere, Head of Computer Engineering Department, 
-Parvatibai Genba Moze College of Engineering, Wagholi Pune-412207 
-for his indispensable support, suggestions. In the end our special 
-thanks to Prof.Pramod Dhamdhere for providing various resources such as 
-laboratory with all needed software platforms, continuous Internet
-connection, for Our Project.
-
-## Feedback
-
-If you have any feedback, please reach out to us at agarwalharsh244@gmail.com
-
-
-## Authors
-
-- [@Harsh Agarwal](https://www.github.com/harshagarwal2245)
-- [@Jagruti Jadhav](https://www.github.com/jagrutijadhav)
-- [@Komal Nagar](https://www.github.com/komalnagar)
-
